@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const PriceFilter = () => {
-    const [price, setPrice] = useState(500);
+  const [price, setPrice] = useState(500);
 
-    return (
-        <div>
-            <label htmlFor="price-slider">Chọn giá tiền:</label>
+  return (
+    <div>
+      {/* <label htmlFor="price-slider">Chọn giá tiền:</label>
             <input
                 type="range"
                 id="price-slider"
@@ -17,9 +17,9 @@ const PriceFilter = () => {
             />
             <p id="price-label">
                 Giá tiền: $<span id="price-value">{price}</span>
-            </p>
-        </div>
-    );
+            </p> */}
+    </div>
+  );
 };
 
 export default PriceFilter;
